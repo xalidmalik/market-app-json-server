@@ -1,10 +1,11 @@
 {
   "name": "market-app-json-server",
   "version": "1.0.0",
+  "main": "server.js",
   "dependencies": {
     "json-server": "^0.16.3"
   },
   "scripts": {
-    "build": "json-server --watch db.json"
+    "start": "node server.js"
   }
 }
